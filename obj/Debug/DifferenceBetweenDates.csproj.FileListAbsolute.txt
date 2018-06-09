@@ -1,0 +1,7 @@
+c:\users\mozzey\source\repos\DifferenceBetweenDates\bin\Debug\DifferenceBetweenDates.exe.config
+c:\users\mozzey\source\repos\DifferenceBetweenDates\bin\Debug\DifferenceBetweenDates.exe
+c:\users\mozzey\source\repos\DifferenceBetweenDates\bin\Debug\DifferenceBetweenDates.pdb
+c:\users\mozzey\source\repos\DifferenceBetweenDates\obj\Debug\DifferenceBetweenDates.csprojAssemblyReference.cache
+c:\users\mozzey\source\repos\DifferenceBetweenDates\obj\Debug\DifferenceBetweenDates.csproj.CoreCompileInputs.cache
+c:\users\mozzey\source\repos\DifferenceBetweenDates\obj\Debug\DifferenceBetweenDates.exe
+c:\users\mozzey\source\repos\DifferenceBetweenDates\obj\Debug\DifferenceBetweenDates.pdb
