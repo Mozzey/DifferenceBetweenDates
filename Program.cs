@@ -19,7 +19,7 @@ namespace DifferenceBetweenDates
 				Console.WriteLine("Please enter a start and end Date and I will calculate the difference.");
 				Console.WriteLine("Example: dd/mm/yyyy (optional) hh:mm.");
                 Console.WriteLine();
-				// Store the two user inputs and convert them to DateTime
+				// Store the two user inputs
 				Console.Write("Start Date : ");
 				var startDate = Console.ReadLine();
 				Console.Write("End Date : ");
@@ -46,6 +46,7 @@ namespace DifferenceBetweenDates
             DateTime endDateConv;
             if (DateTime.TryParse(endDate, out endDateConv) && DateTime.TryParse(startDate, out startDateConv))
 	        {
+                // Get the time difference
                 TimeSpan timeDifference = endDateConv - startDateConv;
                 // Store TimeSpan properties to make string formatting more readable				
 			    int days = timeDifference.Days;
