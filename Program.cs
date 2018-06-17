@@ -49,12 +49,12 @@ namespace DifferenceBetweenDates
                 // Get the time difference
                 TimeSpan timeDifference = endDateConv - startDateConv;
                 // Store TimeSpan properties to make string formatting more readable				
-			    int days = timeDifference.Days;
-			    int hours = timeDifference.Hours;
-			    int minutes = timeDifference.Minutes;
+			    int days = Math.Abs(timeDifference.Days);
+			    int hours = Math.Abs(timeDifference.Hours);
+			    int minutes = Math.Abs(timeDifference.Minutes);
                 // Formatted string to display to the user
 			    string timeDiff = String.Format("{0} Days {1} Hours {2} Minutes", days, hours, minutes);
-			    Console.WriteLine(timeDiff);
+                Console.WriteLine(timeDiff);
 	        }
             else
 	        {
