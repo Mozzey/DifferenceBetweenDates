@@ -1,0 +1,1 @@
+This program will greet the user and prompt them to enter a start date and end date (ex: dd/mm/yyyy) with the option of also inputting a time (ex: hh/mm). It will then create a new TimeSpan that stores the value of the end date minus the start date. The TimeSpan properties are then used to create a new formatted string which will display the time difference between the two dates.
