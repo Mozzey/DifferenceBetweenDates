@@ -49,6 +49,8 @@ namespace DifferenceBetweenDates
                 // Get the time difference
                 TimeSpan timeDifference = endDateConv - startDateConv;
                 // Store TimeSpan properties to make string formatting more readable				
+		// as well as use the Math.Abs method in the case of the 2nd date 
+		// being before the first date in time and it returning a negative difference
 			    int days = Math.Abs(timeDifference.Days);
 			    int hours = Math.Abs(timeDifference.Hours);
 			    int minutes = Math.Abs(timeDifference.Minutes);
